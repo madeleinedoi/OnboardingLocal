@@ -1,27 +1,81 @@
-#container {
+
+ion-content{
+  --ion-background-color:#FCF1D6;
+}
+
+
+div.rectangle{
+ /* Rectangle 326 */
+  position: absolute;
+  width: 60%;
+  height: 2.5862%;
+  left: 20%;
+  top: 51.5%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 32px;
+  z-index: -1;
+}
+div.celebration{
+  position: relative;
+  width: 45.3333%;
+  height: 33.9901%;
+  left: 27.33%;
+  top: 18.84%;
+  z-index: 1;
+
+}
+h4{
+/* H4 SemiBold Heading */
+  $font-family: "Kulim Park";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  color: #000000;
+}
+/* Welcome to Locals Message */
+div.welcome_message{
+  position: absolute;
+  width: 72.5%;
+  height: 4.5567%;
+  left: 13.7333%;
+  top: 59.7%;
+  /* identical to box height, or 37px */
+  display: flex;
+  align-items: center;
   text-align: center;
+  color: #000000;
+}
+/*Component 1*/
+div.dots{
+  position: absolute;
+  width: 28.8%;
+  height: 1.97%;
+  left: 35.6%;
+  top: 89%;
+}
+
+div.button{
+  /* Auto Layout */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
 
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 17.0667%;
+  height: 7.8818%;
+  left: 76.8%;
+  top: 89%;
+
+  /* Primary / Blue */
+  background: #21ABCD;
+  border-radius: 100px;
+  transform: rotate(-180deg)
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+div.arrow-tail{
+  position: absolute;
+  left: 85.8%;
+  top: 92.11%;
 }
